@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    overflow-x: hidden;
+    background: url(../assets/login.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    font-family: 'Saira Condensed', sans-serif;
+    color: #111;
+}
+.logo-text{
+    margin-left: 20px;
+}
+header{
+    background-color: rgba(255, 255, 255, .5);
+    height: 66px;
+}
+header * {
+    font-family: 'Saira Condensed', sans-serif;
+    color: #111;
+}
+header .logo{
+    line-height: 66px;
+    float: left;
+}
+header ul{
+    display: block;
+    float: right;
+    list-style: none;
+    margin-right: 10px;
+}
+header ul li{
+    float: left;
+    position: relative;
+}
+header ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 19px;
+    font-size: 18px;
+}
+.logout-btn{
+    color: #fff;
+    background-color: transparent;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 19px;
+    width: 100%;
+    border: none;
+}
+.logout-btn:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+header ul li a:hover{
+    font-weight: bolder;
+    transition: .2s;
+}
+header ul li ul{
+    position: absolute;
+    top: 66px;
+    width: 155px;
+    display: none;
+}
+header ul li ul li{
+    width: 100%;
+}
+header ul li ul li a{
+    padding: 10px;
+    text-align: center;
+}
+header ul li:hover ul{
+    display: block;
+}
+header .menu-toggle{
+    display: none;
+}
+.nav i{
+    background-color: #fff;
+}
+.signup-container{
+    padding-top: 11%;
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+}
+input[type="text"]{
+    display: inline-flex;
+    padding: 10px;
+    border: none;
+    background-color: #d1d1d1;
+    color: #111;
+    width: 240px;
+    margin-bottom: 7px;
+}
+input[type="email"]{
+    display: inline-flex;
+    padding: 10px;
+    border: none;
+    background-color: #d1d1d1;
+    color: #111;
+    width: 240px;
+    margin-bottom: 7px;
+}
+input[type="password"]{
+    display: inline-flex;
+    padding: 10px;
+    border: none;
+    background-color: #d1d1d1;
+    width: 240px;
+    margin-bottom: 7px;
+}
+.signup-container i{
+    padding-top: 10px;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    background: #82cf78;
+    margin-bottom: 10px;
+}
+.signup-container button i{
+    font-size: 20px;
+    padding: 0px;
+}
+.signup-container button{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 20px;
+    width: 300px;
+    height: 39px;
+    border: none;
+    background: #82cf78;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.signup-container button:hover{
+    cursor: pointer;
+}
+.signup-container a{
+    float: right;
+    text-decoration: none;
+    color: #111;
+    background-color: #67bad6;
+    padding: 10px 5px 10px 5px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.errors{
+    background-color: #e37474;
+    color: black;
+    padding: 5px;
+    margin-bottom: 10px;
+}

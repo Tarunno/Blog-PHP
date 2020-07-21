@@ -1,0 +1,76 @@
+body{
+	font-family: 'Saira Condensed', sans-serif;
+}
+html {
+	margin: 0px;
+  box-sizing: border-box;
+}
+h1{
+	text-align: center;
+	width: 100%;
+	color: #fff;
+}
+.profile-container{
+	width: 90%;
+	margin: 10px auto;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+img{
+	margin-top: 10px;
+	height: 370px;
+	weight: 200px;
+}
+.column {
+  color: #fff;
+  float: left;
+  width: 30%;
+  margin: 10px;
+  padding: 0 8px;
+  background-color: #1f1f1f;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+    display: block;
+	margin: 0px 0px 10px 0px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}

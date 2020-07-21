@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    overflow-x: hidden;
+    background: url(../assets/login.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    font-family: 'Saira Condensed', sans-serif;
+    color: #111;
+}
+.logo-text{
+    margin-left: 20px;
+}
+header{
+    background-color: rgba(255, 255, 255, .5);
+    height: 66px;
+}
+header * {
+    font-family: 'Saira Condensed', sans-serif;
+    color: #111;
+}
+header .logo{
+    line-height: 66px;
+    float: left;
+}
+header ul{
+    display: block;
+    float: right;
+    list-style: none;
+    margin-right: 10px;
+}
+header ul li{
+    float: left;
+    position: relative;
+}
+header ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 19px;
+    font-size: 18px;
+}
+.logout-btn{
+    color: #fff;
+    background-color: transparent;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 19px;
+    width: 100%;
+    border: none;
+}
+.logout-btn:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+header ul li a:hover{
+    font-weight: bolder;
+    transition: .2s;
+}
+header ul li ul{
+    position: absolute;
+    top: 66px;
+    width: 155px;
+    display: none;
+}
+header ul li ul li{
+    width: 100%;
+}
+header ul li ul li a{
+    padding: 10px;
+    text-align: center;
+}
+header ul li:hover ul{
+    display: block;
+}
+header .menu-toggle{
+    display: none;
+}
+.nav i{
+}
+.login-container{
+    padding-top: 15%;
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+}
+input[type="email"]{
+    display: inline-flex;
+    padding: 10px;
+    border: none;
+    background-color: #d1d1d1;
+    color: #111;
+    width: 240px;
+    margin-bottom: 7px;
+}
+input[type="password"]{
+    display: inline-flex;
+    padding: 10px;
+    border: none;
+    background-color: #d1d1d1;
+    width: 240px;
+    margin-bottom: 7px;
+}
+.login-container i{
+    padding-top: 10px;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    background: #67bad6;
+    margin-bottom: 10px;
+}
+.login-container button i{
+    font-size: 20px;
+    padding: 0px;
+}
+.login-container button{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 20px;
+    width: 300px;
+    height: 39px;
+    border: none;
+    background: #67bad6;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.login-container button:hover{
+    cursor: pointer;
+}
+.login-container a{
+    float: right;
+    text-decoration: none;
+    color: #111;
+    background-color: #82cf78;
+    padding: 12px 5px 12px 5px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.errors{
+    background-color: #e37474;
+    color: black;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 800px) {
+ header ul{
+      margin: 0;
+      width: 100%;
+      display: none;
+      background-color: rgba(255, 255, 255, .5);
+  }
+  header ul li a{
+      background-color: rgba(255,255, 255, 0.5);
+      display: block;
+      text-decoration: none;
+      padding: 19px;
+      font-size: 18px;
+      text-align: center;
+      width: 30px;
+  }
+  .logout-btn{
+      background-color: rgba(255,255, 255, 0.5);
+      display: block;
+      text-decoration: none;
+      padding: 10px;
+      font-size: 19px;
+      border: none;
+      width: 50px;
+  }
+  header ul li{
+      border-bottom: 1px solid lightgray;
+      width: 100%;
+  }
+  header ul li ul{
+      position: static;
+      width: 100%;
+  }
+  header ul li ul li a{
+      padding: 0px 0px 0px 40px;
+  }
+  header .menu-toggle{
+      display: block;
+      font-size: 30px;
+      line-height: 66px;
+      float: right;
+      margin-right: 20px;
+  }

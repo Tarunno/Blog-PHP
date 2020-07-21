@@ -1,0 +1,176 @@
+body{
+	width: 100%;
+	height: 100vh;
+	font-family: 'Saira Condensed', sans-serif;
+}
+.ck p{
+	color: #111;
+}
+button{
+	color: #fff;
+}
+.profile-container{
+	color: #fff;
+	display: flex;
+	width: 80%;
+	margin: 40px auto;
+	border: none;
+	min-height: 60vh;
+}
+.profile-container-mini{
+	border: none;
+	flex: 1;
+	padding: 20px;
+	width: 50%;
+	background-color: #1a1a1a;
+}
+.profile-container-mini img{
+	margin-left: 10%;
+	width: 250px;
+	height: 250Px;
+	border-radius: 300px;
+	border: 6px solid crimson;
+}
+.profile-container-mini form{
+	width: 100%;
+}
+.profile-container-mini p{
+	font-weight: bold;
+}
+input[type='text']{
+	border: 1px solid lightgray;
+}
+.profile-container-mini #title{
+	width: 100%;
+	height: 20px;
+}
+.profile-container-mini #editor{
+	width: 50%;
+}
+button{
+	border: none;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #212121;
+	color: #fff;
+	border-radius: 3px;
+}
+.profile-container input[type='file']{
+	padding: 6px;
+	border-radius: 3px;
+}
+.profile-container-mini .post-image{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 30px;
+}
+.profile-container-mini .post-topic{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 65px;
+}
+.profile-container-mini .select-topic{
+	border: 1px solid lightgray;
+	width: 50%;
+}
+.my-post{
+	margin-top: 10px;
+	background-color: crimson;
+}
+.my-post a{
+	font-family: 'Saira Condensed', sans-serif;
+	text-decoration: none;
+	color: #fff;
+}
+table{
+	text-align: center;
+	width: 100%;
+	min-height: 200px;
+}
+table a{
+    text-decoration: none;
+    color: black;
+}
+td, th{
+	font-size: 15px;
+    background-color: #c9c5c5;
+	color: black;
+}
+.logout-btn{
+	color: black;
+}
+.footer{
+	display: block;
+	height: 50px;
+	margin-top: 0px;
+	position: absolute;
+	bottom: 0px;
+}
+.footer .footer-content{
+	display: none;
+	float: left;
+	height: 0px;
+	width: 0px;
+}
+.footer .footer-bottom{
+	display: block;
+	height: 40px;
+	font-size: 13px;
+	line-height: 40px;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+@media screen and (max-width: 900px){
+	body{
+		width: 100%;
+		height: 130vh;
+		font-family: 'Saira Condensed', sans-serif;
+	}
+	.profile-container{
+		width: 100%;
+		text-align: center;
+		display: block;
+		margin: 40px auto;
+		height: 100%;
+	}
+	.profile-container-mini{
+		background-color: black;
+		display: block;
+		padding: 20px;
+		width: 90%;
+		margin-top: 20px;
+	}
+	.profile-container-mini img{
+		margin-left: 0%;
+		height: 150px;
+		width: 150px;
+	}
+	.footer{
+		display: block;
+		height: 0px;
+		margin-top: 0px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.footer .footer-content{
+		display: none;
+		float: left;
+		height: 0px;
+		width: 0px;
+	}
+	.footer .footer-bottom{
+		display: block;
+		height: 40px;
+		font-size: 10px;
+		line-height: 40px;
+		text-align: center;
+		position: absolute;
+		bottom: -350px;
+		width: 100%;
+	}
+}

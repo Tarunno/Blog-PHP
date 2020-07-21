@@ -1,0 +1,143 @@
+
+body{
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    margin-left: 30px;
+}
+header *{
+    background-color: black;
+    color: #fff;
+}
+header{
+    background-color: black;
+    color: #fff;
+}
+header ul li a{
+    background-color: black;
+}
+.admin-pic{
+    border: 5px solid crimson;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-left: 25%;
+    margin-top: 30%;
+    border-radius: 200px;
+}
+.admin-container{
+    font-family: 'Saira Condensed', sans-serif;
+    color: #fff;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+}
+.admin-options{
+    width: 25%;
+    float: left;
+    min-height: 100vh;
+    height: 100%;
+    background-color: black;
+}
+.admin-edit{
+    width: 75%;
+    float: left;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #00101f;
+}
+.admin-options ul li{
+    width: 100%;
+    height: 50px;
+}
+.admin-options ul li a{
+    padding: 20px;
+    font-family: 'Saira Condensed', sans-serif;
+    color: #fff;
+    position: relative;
+    top: 30%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    transition: .5s;
+}
+.admin-options ul li a:hover{
+    left: 40%;
+    transition: .5s;
+}
+.admin-options h3{
+    text-align: center;
+    font-weight: lighter;
+}
+.admin-edit button a{
+    text-decoration: none;
+    font-family: 'Saira Condensed', sans-serif;
+    color: #fff;
+}
+.admin-edit-container{
+    padding: 50px;
+}
+.admin-edit button{
+    background-color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.admin-edit table a{
+    text-decoration: none;
+    color: #fff;
+}
+.admin-edit td, .admin-edit th{
+    background-color: black;
+    padding: 5px 50px 5px 50px;
+}
+.admin-edit-create{
+    width: 70%;
+    height: 60%;
+    padding: 50px;
+}
+#title{
+    font-weight: bold;
+    font-family: 'Saira Condensed', sans-serif;
+    width:99.6%;
+    height: 30px;
+}
+.body-text{
+    color: black;
+}
+.body-text label{
+    color: #fff;
+}
+.select-topic{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Saira Condensed', sans-serif;
+    width: 100%;
+    height: 40px;
+}
+.create-btn{
+    width: 70px;
+    margin-top: 10px;
+    font-family: 'Saira Condensed', sans-serif;
+    color: #fff;
+}
+#editor{
+    width: 100%;
+    height: 30px;
+}
+.errors p{
+    background-color: #de6666;
+    padding: 5px;
+}
+.admin-logout-btn{
+    margin-left: 25px;
+    padding: 20px;
+    border: none;
+    font-size: 20px;
+}
+.admin-logout-btn:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
