@@ -20,8 +20,7 @@ I have used XAMPP as local severe and phpMyadmin for Database managment system.
 
 ### Requirement : 
       to run these project create :  
-##### Database :
-              1.blog 
+##### Database : blog 
 ##### Tables : 
               1.comments:
                 id int(11) AUTO_INCREMENT PRIMARY KEY
@@ -57,8 +56,6 @@ I have used XAMPP as local severe and phpMyadmin for Database managment system.
                 users_create_time	timestamp current_timestamp()			
                 profile_img_status	varchar(256)
                 
-# GIF: 
-note: full site couldn't be captured because of gif time limit of 20 seconds. :(
-<a href="https://imgflip.com/gif/48xx1f" src="https://imgflip.com/embed/48xx1f"></a>
-                               
+# SCREENSHOT:
+![](view.png)
                               
