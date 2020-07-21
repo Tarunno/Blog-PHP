@@ -57,5 +57,5 @@ to run these project create :
                 profile_img_status	varchar(256)
                 
 # SCREENSHOT:
-![](view.png)
+![](48xx1f.gif)
                               
