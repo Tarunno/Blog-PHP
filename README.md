@@ -19,7 +19,7 @@ For front-end I have used HTML CSS JS and for back-end I have used PHP SQL.
 I have used XAMPP as local severe and phpMyadmin for Database managment system.
 
 ### Requirement : 
-      to run these project create :  
+to run these project create :  
 ##### Database : blog 
 ##### Tables : 
               1.comments:
