@@ -37,25 +37,25 @@ to run these project create :
                 user_id	int(11) NOT NULL
                 title	varchar(40)	NOT NULL
                 image	varchar(256) NOT NULL
-                body text	NOT NULL
-                published	tinyint(4) NOT NULL		
-                created_at	datetime current_timestamp()
+                body text NOT NULL
+                published tinyint(4) NOT NULL		
+                created_at datetime current_timestamp()
                 topics	varchar(256) NOT NULL
-                trending	tinyint(11)	NOT NULL
-                sum_rating	bigint(11) NOT NULL	
-                rated_users	bigint(11) NOT NULL	
+                trending tinyint(11)	NOT NULL
+                sum_rating bigint(11) NOT NULL	
+                rated_users bigint(11) NOT NULL	
                 
               3.topics:
-                id int(11) AUTO_INCREMENT	PRIMARY KEY
-                title	varchar(30)	NOT NULL
-                description	text 
+                id int(11) AUTO_INCREMENT PRIMARY KEY
+                title	varchar(30) NOT NULL
+                description text 
                 
               4.users:
-                id int(11)	AUTO_INCREMENT PRIMARY KEY
-                admin	tinyint(4) NOT NULL	
-                username	varchar(256) NOT NULL
-                email Index	varchar(256) NOT NULL
-                password	varchar(256) NOT NULL   (hashed)
-                users_create_time	timestamp current_timestamp()			
-                profile_img_status	varchar(256)
+                id int(11) AUTO_INCREMENT PRIMARY KEY
+                admin tinyint(4) NOT NULL	
+                username varchar(256) NOT NULL
+                email Index varchar(256) NOT NULL
+                password varchar(256) NOT NULL   (hashed)
+                users_create_time timestamp current_timestamp()			
+                profile_img_status varchar(256)
                             
