@@ -17,7 +17,7 @@ features:
 
 ### Front-end Features :
 In front a i have used vanilla-js for interactivity
-and core html, css for markup and style 
+and core html, css for markup and style.
         1. Responsive 
         2. Image slider for trending posts
         3. Tabs
