@@ -2,6 +2,7 @@
 I have used Procedural PHP for this project. I can create post, add image to the post, add topic tag. There's also have personal profile for every Author where everyone have personal profile picture, there previous post. 
 
 ![](ezgif.com-resize.gif)
+### For more views go to the Screen shots folder
 
 The admin panel has 3 eidting option : users, posts and topic. The admin can remove a author and his/her posts, can add a Author also. Admin can publish or unpublish any post.
 There's also a slide show, which consists of the trending posts. Admin can chose between posts and trending posts.
