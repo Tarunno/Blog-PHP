@@ -29,41 +29,4 @@ I have used core HTML CSS JavaScript and PHP in this project. There's no framewo
 For front-end I have used HTML CSS JS and for back-end I have used PHP SQL.
 I have used XAMPP as local severe and phpMyadmin for Database managment system.
 
-### Requirement : 
-to run these project create :  
-##### Database : blog 
-##### Tables : 
-              1.comments:
-                id int(11) AUTO_INCREMENT PRIMARY KEY
-                users_name varchar(256) NOT NULL
-                comment_date datetime current_timestamp()	
-                message	text NOT NULL
-                post_id	int(128) NOT NULL
-              
-              2.posts:
-              	id int(11) AUTO_INCREMENT	PRIMARY KEY	
-                user_id	int(11) NOT NULL
-                title	varchar(40)	NOT NULL
-                image	varchar(256) NOT NULL
-                body text NOT NULL
-                published tinyint(4) NOT NULL		
-                created_at datetime current_timestamp()
-                topics	varchar(256) NOT NULL
-                trending tinyint(11)	NOT NULL
-                sum_rating bigint(11) NOT NULL	
-                rated_users bigint(11) NOT NULL	
-                
-              3.topics:
-                id int(11) AUTO_INCREMENT PRIMARY KEY
-                title	varchar(30) NOT NULL
-                description text 
-                
-              4.users:
-                id int(11) AUTO_INCREMENT PRIMARY KEY
-                admin tinyint(4) NOT NULL	
-                username varchar(256) NOT NULL
-                email Index varchar(256) NOT NULL
-                password varchar(256) NOT NULL   (hashed)
-                users_create_time timestamp current_timestamp()			
-                profile_img_status varchar(256)
-                            
+### Requirement : Import the DATABASE.sql file to your phpMyadmin 
