@@ -9,7 +9,7 @@ There's also a slide show, which consists of the trending posts. Admin can chose
 
 ### Features : CURD and CMS
 I have mainly used the concept of CURD and CMS in procedural php.
-features:
+features:<br>
         1. add, delele update post, user and topic.<br>
         2. upload post image and profile picture.<br>
         3. rate, comoment in posts.<br>
