@@ -10,20 +10,21 @@ There's also a slide show, which consists of the trending posts. Admin can chose
 ### Features : CURD and CMS
 I have mainly used the concept of CURD and CMS in procedural php.
 features:
-        1. add, delele update post, user and topic.
-        2. upload post image and profile picture.
-        3. rate, comoment in posts.
-        4. search posts.
-        5. admin panel for the admin to manage the contents.
+        1. add, delele update post, user and topic.<br>
+        2. upload post image and profile picture.<br>
+        3. rate, comoment in posts.<br>
+        4. search posts.<br>
+        5. admin panel for the admin to manage the contents.<br>
+        6. form validations 
 
 ### Front-end Features :
 In front a i have used vanilla-js for interactivity
 and core html, css for markup and style.
-        1. Responsive 
-        2. Image slider for trending posts
-        3. Tabs
-        4. Scroll animation on srcoll-down.
-        5. Hamburger menu on mobile view 
+        1. Responsive. <br> 
+        2. Image slider for trending posts. <br>
+        3. Tabs. <br>
+        4. Scroll animation on srcoll-down.<br>
+        5. Hamburger menu on mobile view .<br>
               
 ### Languages : HTML CSS JavaScript PHP and SQL
 I have used core HTML CSS JavaScript and PHP in this project. There's no framework used for any of these language.
