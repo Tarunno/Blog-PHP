@@ -1,15 +1,3 @@
-var holder = document.querySelectorAll('.rating_index');
-var stars = document.querySelectorAll('.rating_holder_index');
-console.log(holder);
-for(var i=0; i<holder.length; i++){
-    var too = stars[i].value;
-    var icon = holder[i].childNodes;
-    var icon = holder[i].querySelectorAll('i');
-    for(var j=0; j<too; j++){
-        icon[j].className = icon[j].className.replace('far', 'fas');
-    }
-}
-
 var flag = false;
 var nav = document.querySelector("header ul");
 var bar = document.querySelector("i.menu-toggle");
