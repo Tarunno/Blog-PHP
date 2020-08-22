@@ -12,6 +12,16 @@
     padding: 5px;
     border-radius: 3px;
 }
+.load-more-btn{
+    width: 150px;
+    background-color: crimson;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-left: 50%;
+}
+
 /* HEADER */
 .logo-text{
     margin-left: 20px;
