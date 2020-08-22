@@ -19,12 +19,14 @@ features:<br>
 
 ### Front-end Features :
 In front a i have used vanilla-js for interactivity
-and core html, css for markup and style.
+and core html, css for markup and style. <br>
         1. Responsive. <br> 
         2. Image slider for trending posts. <br>
         3. Tabs. <br>
         4. Scroll animation on srcoll-down.<br>
         5. Hamburger menu on mobile view .<br>
+        6. XML http request.<br>
+        7. CKeditor 5.<br>
               
 ### Languages : HTML CSS JavaScript PHP and SQL
 I have used core HTML CSS JavaScript and PHP in this project. There's no framework used for any of these language.
