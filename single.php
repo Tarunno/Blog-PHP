@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/single.css">
-        <title></title>
+        <title>TARUNNO SAYS | post</title>
     </head>
     <body>
 
@@ -99,8 +99,10 @@
                         }else{
                             echo '<input type="hidden" name="name" class="rating_holder" value="'.$row['sum_rating'] / $row['rated_users'].'">';
                         }
-                        echo '<input type="submit" name="rating_submit" class="rating_submit" value="Rate">
-                    </form>
+                        if(isset($_SESSION['username'])){
+                            echo '<input type="submit" name="rating_submit" class="rating_submit" value="Rate">';
+                        }
+                    echo '</form>
                     <br><br>
                     <div class="full-post-text">
                         <p>'.$row['body'].'</p>
@@ -108,15 +110,20 @@
                 </div>';
 
             echo '<h1 class="comment-header"> <i class="far fa-comment"></i> Comments </h1>
-            <div class="comment-section">
-                <form action="includes/single.inc.php?id='.$row['id'].'" method="post">
-                    <input type="text" name="users_name" placeholder=" Enter your name">
-                    <textarea class="textarea" type="text" name="message">Your comment... </textarea>
-                    <input type="submit" name="comment-submit" value="Comment">
-                </form>';
+
+            <div class="comment-section">';
+                    if(isset($_SESSION['username'])){
+                        echo '<form action="includes/single.inc.php?id='.$row['id'].'" method="post">
+                            <input type="hidden" name="user_id" value="'.$_SESSION['id'].'">
+                            <textarea class="textarea" type="text" name="message">Your comment... </textarea>
+                            <input type="submit" name="comment-submit" value="Comment">
+                        </form>';
+                    }
                     while($comment = mysqli_fetch_assoc($comments)){
+                        $user = selectOne('users', ['id' => $comment['user_id']]);
+                        $user = mysqli_fetch_assoc($user);
                         echo '<div class="comment">
-                            <h3> <i class="fas fa-user"></i> '.$comment['users_name'].' </h3>
+                            <h3> <i class="fas fa-user"></i> '.$user['username'].' </h3>
                             <p class="date"> <i class="far fa-calendar-alt"> </i>  '.$comment['comment_date'].' </p>
                             <p class="message"> '.$comment['message'].' </p>
                         </div>';
@@ -126,7 +133,7 @@
             </div>';
 
             <div class="full-post-container">
-            <h1>Relaed posts</h1>
+            <h1>Related posts</h1>
             <?php
             $search = mysqli_real_escape_string($con, $row['topics']);
     		$sql = "SELECT * FROM posts WHERE title LIKE '%$search%' OR body LIKE '%$search%' OR topics LIKE '%$search%'";
