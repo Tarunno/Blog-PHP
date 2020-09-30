@@ -147,6 +147,7 @@ header .menu-toggle{
     font-size: 15px;
     font-weight: bold;
     display: inline;
+    color: gray;
     font-family: 'Saira Condensed', sans-serif;
 }
 .post-preview p a{
@@ -290,7 +291,7 @@ header .menu-toggle{
     .content-post{
         height: 260px;
         margin-bottom: 24px;
-        background-color: #fff;
+        background-color:  #0a0a0a;
         width: 100%;
     }
     .post-image{
@@ -305,7 +306,7 @@ header .menu-toggle{
     .content-post{
         height: 350px;
         margin-bottom: 24px;
-        background-color: #fff;
+        background-color: #0a0a0a;
         width: 100%;
     }
     .post-image{
