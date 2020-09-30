@@ -2,7 +2,7 @@
 	include 'curd.inc.php';
 
 	if(isset($_GET['load_all'])){
-		$sql = "SELECT * FROM `posts` LIMIT 3;";
+		$sql = "SELECT * FROM `posts` ORDER BY `created_at` DESC LIMIT 3;";
 		$result = $con->query($sql);
 		$output = "";
 		while($post = $result->fetch_assoc()){
@@ -44,7 +44,7 @@
 
 	if(isset($_GET['load_more'])){
 		$offset = $_GET['load_more'];
-		$sql = "SELECT * FROM `posts` LIMIT 3 OFFSET $offset;";
+		$sql = "SELECT * FROM `posts` ORDER BY `created_at` DESC LIMIT 3 OFFSET $offset;";
 		$result = $con->query($sql);
 		$output = "";
 		while($post = $result->fetch_assoc()){
