@@ -41,7 +41,6 @@
             </form>
             <a href="signup.php">signup</a>
         </div>
-
         <script type="text/javascript" src="javaScript/app.js"></script>
     </body>
 </html>
