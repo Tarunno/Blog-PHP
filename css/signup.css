@@ -155,3 +155,47 @@ input[type="password"]{
     padding: 5px;
     margin-bottom: 10px;
 }
+@media screen and (max-width: 800px) {
+ header ul{
+      margin: 0;
+      width: 100%;
+      display: none;
+      background-color: rgba(255, 255, 255, .5);
+  }
+  header ul li a{
+      background-color: rgba(255,255, 255, 0.5);
+      display: block;
+      text-decoration: none;
+      padding: 19px;
+      font-size: 18px;
+      text-align: center;
+      width: 30px;
+  }
+  .logout-btn{
+      background-color: rgba(255,255, 255, 0.5);
+      display: block;
+      text-decoration: none;
+      padding: 10px;
+      font-size: 19px;
+      border: none;
+      width: 50px;
+  }
+  header ul li{
+      border-bottom: 1px solid lightgray;
+      width: 100%;
+  }
+  header ul li ul{
+      position: static;
+      width: 100%;
+  }
+  header ul li ul li a{
+      padding: 0px 0px 0px 40px;
+  }
+  header .menu-toggle{
+      display: block;
+      font-size: 30px;
+      line-height: 66px;
+      float: right;
+      margin-right: 20px;
+  }
+}
