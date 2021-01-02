@@ -15,8 +15,9 @@
         	</div>
         	<i class="fa fa-bars menu-toggle"></i>
         	<ul class="nav">
+                <li> <a href="index.php"> HOME</a> </li>
         		<li> <a href="#">ABOUT</a> </li>
-        		<li> <a href="#">CONTACT</a> </li>
+        		<li> <a href="members.php">MEMBERS</a> </li>
         		<li> <a href="login.php">LOGIN</a> </li>
         	</ul>
         </header>
